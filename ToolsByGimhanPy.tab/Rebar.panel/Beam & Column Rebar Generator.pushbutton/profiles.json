@@ -1,0 +1,289 @@
+{
+  "1212": {
+    "Global": {
+      "SpacerSpacing": "1000", 
+      "TopBarType": "T20", 
+      "BotBarType": "T20", 
+      "BarType": "T20", 
+      "EndSpacing": "150", 
+      "EndOffset": "40", 
+      "TopSame": true, 
+      "MidSpacing": "250", 
+      "BeamHeight": "400", 
+      "SpacerType": "None", 
+      "StirrupType": "R6", 
+      "SideBarType": "10mm", 
+      "BotL2Type": "T20", 
+      "BotSame": true, 
+      "BeamWidth": "250", 
+      "SideBarQty": "0", 
+      "SideCover": "40", 
+      "TopL2Type": "T20"
+    }, 
+    "Middle Section": {
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 0, 
+      "B2": 0
+    }, 
+    "End Sections": {
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 2, 
+      "B2": 2
+    }
+  }, 
+  "AAAA": {
+    "Global": {
+      "SpacerSpacing": "1000", 
+      "TopBarType": "H20", 
+      "BotBarType": "T20", 
+      "BarType": "H20", 
+      "EndSpacing": "150", 
+      "EndOffset": "0", 
+      "MidSpacing": "250", 
+      "BeamHeight": "400", 
+      "SpacerType": "None", 
+      "StirrupType": "R6", 
+      "SideBarType": "10mm", 
+      "SideBarQty": "0", 
+      "SideCover": "40", 
+      "BeamWidth": "250"
+    }, 
+    "Middle Section": {
+      "B2": 0, 
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 0
+    }, 
+    "End Sections": {
+      "B2": 0, 
+      "T1": 0, 
+      "B1": 0, 
+      "T2": 0
+    }
+  }, 
+  "FDSDFSE": {
+    "Global": {
+      "SpacerSpacing": "1000", 
+      "TopBarType": "T20", 
+      "BotBarType": "T20", 
+      "BarType": "T20", 
+      "EndSpacing": "150", 
+      "EndOffset": "0", 
+      "MidSpacing": "250", 
+      "BeamHeight": "400", 
+      "SpacerType": "None", 
+      "StirrupType": "R6", 
+      "SideBarType": "10mm", 
+      "SideBarQty": "0", 
+      "SideCover": "40", 
+      "BeamWidth": "250"
+    }, 
+    "Middle Section": {
+      "B2": 2, 
+      "T1": 3, 
+      "B1": 2, 
+      "T2": 2
+    }, 
+    "End Sections": {
+      "B2": 0, 
+      "T1": 1, 
+      "B1": 1, 
+      "T2": 0
+    }
+  }, 
+  "F-Type-JKJ": {
+    "Cover": "50", 
+    "BXType": "H6", 
+    "TXType": "R6", 
+    "TYType": "R6", 
+    "TYSpacing": "200", 
+    "BYSpacing": "200", 
+    "TopMat": true, 
+    "Type": "Footing", 
+    "TXSpacing": "200", 
+    "BYType": "R6", 
+    "BXSpacing": "200"
+  }, 
+  "test 2": {
+    "Global": {
+      "SpacerSpacing": "1000", 
+      "TopBarType": "T20", 
+      "BotBarType": "T20", 
+      "BarType": "T20", 
+      "EndSpacing": "150", 
+      "EndOffset": "40", 
+      "TopSame": true, 
+      "MidSpacing": "250", 
+      "BeamHeight": "400", 
+      "SpacerType": "None", 
+      "StirrupType": "R6", 
+      "SideBarType": "10mm", 
+      "BotL2Type": "T20", 
+      "BotSame": true, 
+      "BeamWidth": "250", 
+      "SideBarQty": "0", 
+      "SideCover": "40", 
+      "TopL2Type": "T20"
+    }, 
+    "Middle Section": {
+      "T1": 1, 
+      "B1": 1, 
+      "T2": 1, 
+      "B2": 1
+    }, 
+    "End Sections": {
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 2, 
+      "B2": 2
+    }
+  }, 
+  "C1": {
+    "SideXQty": 1, 
+    "SideYQty": 2, 
+    "SideYType": "T20", 
+    "ColCover": "40", 
+    "SideXType": "T20", 
+    "ColDepth": "350", 
+    "TieSpacing": "150", 
+    "CornerType": "T20", 
+    "ColWidth": "250", 
+    "Type": "Column", 
+    "TieType": "R6"
+  }, 
+  "test1": {
+    "Global": {
+      "SpacerSpacing": "1000", 
+      "TopBarType": "T20", 
+      "BotBarType": "T20", 
+      "BarType": "T20", 
+      "EndSpacing": "150", 
+      "EndOffset": "40", 
+      "MidSpacing": "250", 
+      "BeamHeight": "400", 
+      "SpacerType": "None", 
+      "StirrupType": "R6", 
+      "SideBarType": "10mm", 
+      "BeamWidth": "250", 
+      "SideCover": "40", 
+      "SideBarQty": "0"
+    }, 
+    "Middle Section": {
+      "B2": 2, 
+      "B1": 2, 
+      "T1": 2, 
+      "T2": 2
+    }, 
+    "End Sections": {
+      "B2": 0, 
+      "B1": 1, 
+      "T1": 1, 
+      "T2": 0
+    }
+  }, 
+  "test 3": {
+    "Global": {
+      "SpacerSpacing": "1000", 
+      "TopBarType": "T20", 
+      "BotBarType": "T20", 
+      "BarType": "T20", 
+      "EndSpacing": "150", 
+      "EndOffset": "40", 
+      "TopSame": true, 
+      "MidSpacing": "250", 
+      "BeamHeight": "400", 
+      "SpacerType": "None", 
+      "StirrupType": "R6", 
+      "SideBarType": "10mm", 
+      "BotL2Type": "T20", 
+      "BotSame": true, 
+      "BeamWidth": "250", 
+      "SideBarQty": "0", 
+      "SideCover": "40", 
+      "TopL2Type": "T20"
+    }, 
+    "Middle Section": {
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 2, 
+      "B2": 2
+    }, 
+    "End Sections": {
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 2, 
+      "B2": 2
+    }
+  }, 
+  "asdsd": {
+    "Middle Section": {
+      "B1": 2, 
+      "T1": 2, 
+      "T2": 0, 
+      "B2": 0
+    }, 
+    "End Sections": {
+      "B1": 2, 
+      "T1": 2, 
+      "T2": 2, 
+      "B2": 2
+    }, 
+    "Global": {
+      "BeamWidth": "250", 
+      "BarType": "T20", 
+      "TopL2Type": "T20", 
+      "BeamHeight": "400", 
+      "SpacerType": "H25", 
+      "SideBarQty": "2", 
+      "SideBarType": "10mm", 
+      "SideCover": "40", 
+      "BotBarType": "T20", 
+      "EndSpacing": "150", 
+      "StirrupType": "R6", 
+      "BotL2Type": "T20", 
+      "SpacerSpacing": "1000", 
+      "MidSpacing": "250", 
+      "TopSame": true, 
+      "TopBarType": "T20", 
+      "EndOffset": "40", 
+      "BotSame": true
+    }
+  }, 
+  "F-Type-1": {
+    "Cover": "50", 
+    "BXType": "T12", 
+    "TXType": "T12", 
+    "TYType": "T12", 
+    "TYSpacing": "200", 
+    "BYSpacing": "200", 
+    "TopMat": false, 
+    "Type": "Footing", 
+    "TXSpacing": "200", 
+    "BYType": "T12", 
+    "BXSpacing": "200"
+  }, 
+  "Default": {
+    "Global": {
+      "BarType": null, 
+      "EndSpacing": 150, 
+      "EndOffset": 40, 
+      "MidSpacing": 250, 
+      "StirrupType": null, 
+      "SideCover": 25
+    }, 
+    "Middle Section": {
+      "B2": 0, 
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 0
+    }, 
+    "End Sections": {
+      "B2": 0, 
+      "T1": 2, 
+      "B1": 2, 
+      "T2": 0
+    }
+  }
+}

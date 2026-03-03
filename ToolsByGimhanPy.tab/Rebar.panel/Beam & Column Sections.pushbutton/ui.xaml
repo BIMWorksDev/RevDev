@@ -1,0 +1,47 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Sections Tools" Height="280" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10">
+        <TabControl>
+            <!-- BEAM TAB -->
+            <TabItem Header="Beams">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Create sections for Beams." FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBlock Text="Generates sections at:" Margin="0,0,0,5"/>
+                    <BulletDecorator Margin="10,0,0,5">
+                         <BulletDecorator.Bullet>
+                            <Ellipse Height="4" Width="4" Fill="Black"/>
+                        </BulletDecorator.Bullet>
+                        <TextBlock Text=" L/6 (Support)" Margin="5,0,0,0"/>
+                    </BulletDecorator>
+                    <BulletDecorator Margin="10,0,0,10">
+                         <BulletDecorator.Bullet>
+                            <Ellipse Height="4" Width="4" Fill="Black"/>
+                        </BulletDecorator.Bullet>
+                        <TextBlock Text=" L/2 (Mid-span)" Margin="5,0,0,0"/>
+                    </BulletDecorator>
+                    
+                    <CheckBox Name="chkDimsBeam" Content="Automate Dimensions" Margin="0,0,0,10" IsChecked="True"/>
+                    <Button Content="Select Beams &amp; Create" Height="30" Click="select_beams_click"/>
+                </StackPanel>
+            </TabItem>
+            
+            <!-- COLUMN TAB -->
+            <TabItem Header="Columns">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Create cross-sections for Columns." FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBlock Text="Generates section at:" Margin="0,0,0,5"/>
+                     <BulletDecorator Margin="10,0,0,10">
+                         <BulletDecorator.Bullet>
+                            <Ellipse Height="4" Width="4" Fill="Black"/>
+                        </BulletDecorator.Bullet>
+                        <TextBlock Text=" Mid-height" Margin="5,0,0,0"/>
+                    </BulletDecorator>
+                    
+                    <CheckBox Name="chkDimsCol" Content="Automate Dimensions" Margin="0,0,0,10" IsChecked="True"/>
+                    <Button Content="Select Columns &amp; Create" Height="30" Click="select_columns_click"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
